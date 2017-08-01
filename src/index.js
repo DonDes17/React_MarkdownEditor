@@ -50,7 +50,7 @@ class App extends React.Component {
 				<div className="row">
 
 				  <div className="col-sm-6">
-				  	<textarea value={this.state.text} rows="35" className="form-control" onChange={(e) => this.editText(e)} >
+				  	<textarea value={this.state.text} rows="28" className="form-control" onChange={(e) => this.editText(e)} >
 				  	</textarea>
 				  </div>
 
