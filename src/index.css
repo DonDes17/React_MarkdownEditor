@@ -12,5 +12,9 @@ textarea {
   margin-left: -40px;
   background-color: rgba(0, 0, 0, 0.7);
   color: #666;
+  box-shadow: 5px 5px 21px 0px rgba(0, 0, 0, 0.3) !important;
 }
 
+.divRight {
+  padding-top: 4px;
+}
