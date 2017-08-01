@@ -49,12 +49,12 @@ class App extends React.Component {
 			<div className="container">
 				<div className="row">
 
-				  <div className="col-sm-6">
+				  <div className="col-sm-6 pull-left">
 				  	<textarea value={this.state.text} rows="35" className="form-control" onChange={(e) => this.editText(e)} >
 				  	</textarea>
 				  </div>
 
-				  <div className="col-sm-6">
+				  <div className="col-sm-6 pull-right">
 				  	<div dangerouslySetInnerHTML={this.renderText(this.state.text)} />
 					</div>
 
