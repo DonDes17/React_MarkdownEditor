@@ -28,6 +28,7 @@ class App extends React.Component {
 	}
 
   componentWillUpdate(nextProps, nextState) {
+		// Se lance juste après le rendu
     localStorage.setItem('text', nextState.text);
   };
 
@@ -37,7 +38,8 @@ class App extends React.Component {
   };
 
   renderText = (text) => {
-    const renderText = marked(text, { sanitize: true});
+		const renderText = marked(text, { sanitize: true});
+				// On place le rendu dans un objet pour se souvenir que c'est dangereux d'insérer du code dans le DOM.
     return { __html: renderText };
   };
 
