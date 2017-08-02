@@ -1,5 +1,5 @@
 .container {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 body {
@@ -13,6 +13,13 @@ textarea {
   background-color: rgba(0, 0, 0, 0.7);
   color: #666;
   box-shadow: 5px 5px 21px 0px rgba(0, 0, 0, 0.3) !important;
+}
+
+header {
+  text-align: center;
+  background-color: #666;
+  color: white;
+  padding: 5px 0 12px 0;
 }
 
 .divRight {
